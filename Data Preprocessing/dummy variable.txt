@@ -1,0 +1,13 @@
+bir değişkeni ifade eden başka bir değişkendir yani bazı string içeren kolonları 1 0 yapmamız
+örn :
+Cinsiyet	E	K
+e		1	0
+e		1	0
+k		0	1
+k		0	1
+burada orjinal veriyle kukla veri aynı anda alınmaması lazım
+yani veriyi dönüştürdek sonra cinsiyet kolonunu almamalıyız
+yada sadece kadınları alıcaksan erkek ve cinsiyet kolonlarını
+çıkarmamız gerekmektedir.
+eğer bir kolon diğerine bağlı değilse diğer kolonlar silinmiyebilir
+hepsini alabiliriz.
